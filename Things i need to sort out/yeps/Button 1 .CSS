@@ -1,0 +1,139 @@
+
+    .Request-button{
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 10px ;
+        border-width: 2px 0.15s;
+        border-radius: 1px;
+        margin: 10px 30px 65px 80px;
+        cursor: pointer;
+        transition: background-colour 0.15s,
+    }
+    .Request-button:hover {
+        opacity: 0.5;
+    }
+
+    .Request-button:active {
+        opacity: 0.8;
+    } 
+
+    .AddToCart-button {
+        background-color: rgba(255, 216, 20);
+        color: black;
+        border: none;
+        height: 36px;
+        width: 150px;
+        border-radius: 20px;
+        border-width: 15px;
+        margin: 10px 10px 75px 10px;
+        cursor: pointer;
+        transition: background-colour 0.15s;
+
+    }
+
+    .AddToCart-button:hover {
+        background-color: red;
+        border-width: 2px;
+    }
+
+    .AddToCart-button:active {
+        opacity: 0.15s;
+    }
+
+    .SignUp-button {
+        background-color: rgb(46, 163, 79);
+        color: white;
+        border: none;
+        height: 36px;
+        width: 105px;
+        border-radius: 10px;
+        border-width: 90px;
+        margin: 10px 10px 10px 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .SignUp-button:hover {
+        box-shadow: 0px 0px 8px rgba(255, 0, 0, 0.25);
+        transition-duration: 0.4s;
+    }
+
+    .GetStarted-button {
+        background-color: rgb(108, 117, 179);
+        color: white;
+        border: none;
+        height: 36px;
+        width: 100px;
+        border-radius: 5px;
+        border-width: 30px;
+        font-weight: bold;
+        font-size: 12px;
+        cursor: pointer;
+
+    }
+
+    .GetStarted-button:hover {
+        background-color: black;
+    }
+
+    .Download-button{
+        background-color: white;
+        color: grey;
+        border-width: 1px;
+        border-style: solid;
+        border-color: black;
+        height: 36px;
+        width: 100px;
+        font-weight: bold;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .Download-button:hover {
+        background-color: rgb(108, 117, 125);
+        color: white;
+        transition-duration: 0.4s;
+    }
+
+    .Apply-button {
+        background-color: rgb(10, 102, 194);
+        color: white;
+        border-width: none;
+        border-style: solid;
+        border-color: white;
+        padding: 10px 16px 10px 16px;
+        border-radius: 18px;
+        font-weight: bold;
+        font-size: 15px;
+        margin-right: 8px;
+        cursor: pointer;
+        transition-duration: 0,15s;
+    }
+
+    .Apply-button:hover {
+        background-color: rgb(110, 20, 194);
+        color: white;
+    }
+
+    .Save-button {
+        background-color: white;
+        color: rgb(10, 102, 194);
+        border-style: solid;
+        border-color: rgb(10, 102, 194);
+        border-radius: 20px;
+        padding: 9px 14px 9px 14px;
+        font-weight: bold;
+        font-size: 15px;
+        cursor:pointer ;
+        transition-duration: 0.15s;
+    }
+
+    .Save-button:hover {
+        background-color: rgb(226, 240, 254);
+        border-width: 2px;
+    }
+
+    

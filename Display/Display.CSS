@@ -1,0 +1,72 @@
+.First-name,
+.Last-name,
+.Email {
+    border: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: grey;
+    padding: 12px 16px 12px 16px;
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+
+.First-name {
+    width: 148px;
+}
+
+.Last-name {
+    width: 148px;
+}
+
+.Email {
+    display: block;
+    width: 330px;
+}
+
+.Sign-Up {
+    background-color: rgb(47, 127, 231);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 12px 14px 12px 14px;
+    width: 365px;
+    height: 120;
+    border: none;
+    border-color: aliceblue;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+.Page-name {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    display: block;
+    font-size: 40px;
+}
+
+.Location,
+.Destination {
+    background-color: rgb(233, 214, 214);
+    display: block;
+    padding: 9px 200px 9px 14px;
+    margin-bottom: 5px;
+    border: none;
+}
+
+.Request-now {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 9px 14px 9px 14px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.Schedule {
+    background-color: rgb(233, 214, 214);
+    color: black;
+    padding: 9px 14px 9px 14px;
+    border: none;
+    
+}

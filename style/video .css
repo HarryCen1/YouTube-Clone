@@ -1,0 +1,93 @@
+p {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .thumbnail {
+    width: 100%;
+    display: block;
+  }
+
+
+
+  .Video-Title {
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 10px;
+
+  }
+
+  .video-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+  }
+
+  .profile-picture {
+    width: 36px;
+    border-radius: 50px; 
+
+  }
+
+  .thumbnail-row {
+    margin-bottom: 8px;
+    position: relative;
+  }
+
+  .Author-name
+  .video-stats {
+    font-size: 12px;
+
+  }
+
+  .Author-name {
+    margin-bottom: 4px;
+  }
+
+  .grey-video-info {
+    color: grey;
+  }
+
+  .video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 40px;
+  }
+
+ 
+@media (max-width: 650px) {
+  .video-grid {
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+@media (min-width: 100px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 999px){
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
+}
+
+.video-time {
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px 4px 4px 4px;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
